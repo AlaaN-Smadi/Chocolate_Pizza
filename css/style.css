@@ -1,0 +1,187 @@
+body{
+    background: rgb(245, 232, 230);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family: "Ballistick";
+    src: url("fonts/Ballistick.ttf");
+}
+a{
+    text-decoration: none;
+    color: seashell;
+}
+h1{
+    
+    font-size: xx-large;
+    font-family:Ballistick;
+}
+header{
+    background: rgb(219, 190, 185);
+    /* border: 1px solid green; */
+    height: 50px;
+    margin-top: 25px;
+    padding: 2px;
+}
+main{
+    background: rgb(241, 221, 217);
+}
+
+#left{
+    float: left;
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 54%;
+}
+#left img{
+    float: left;
+    margin-right: 10px;
+}
+
+#right{
+    float: right;
+    width: 45%;
+    margin-top: 10px;
+    
+    /* border: 1px solid red; */
+
+}
+#firstAId{
+    margin-left: 240px;
+}
+#toGoRight{
+    margin-left: 10px;
+}
+nav ul li{
+display: inline-block;
+
+}
+nav ul li a{
+    /* background-image: url("https://github.com/LTUC/amman-irbid-201d24/blob/main/class-10/lab-a/lab-assets/fb-icon.png?raw=true"); */
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+nav ul li img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.print{
+    cursor: pointer;
+
+}
+.line{
+    width: 100%;
+    height: 15px;
+    background: linear-gradient(black,rgb(104, 88, 88), rgb(192, 191, 191),rgb(104, 88, 88), black);
+    
+}
+#lineBellow{
+    margin-top: 20px;
+}
+
+
+#upperSide{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    padding: 2px;
+    height: 50px;
+}
+#rightDiv{
+    float: right;
+    display: inline-block;
+    width: 80px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+
+}
+#leftArticle{
+    float: left;
+}
+#rightDiv img{
+    float: left;
+}
+h2{
+    font-size: x-large;
+}
+h4{
+    font-size: small;
+}
+
+
+
+
+
+
+#middileSide{
+    width: 100%;
+    margin-bottom: 50px;
+}
+#middileSide img{
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+#p2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#lowerSide{
+    background-image:url("https://github.com/LTUC/amman-irbid-201d24/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true") ;
+    height: 250px;
+}
+#checkLeft{
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 45px;
+    display: block;
+}
+#checkRight{
+    float: right;
+    width: 35%;
+    margin-right: 10%;
+    margin-top: 45px;
+    display: block;
+}
+aside{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: block;
+}
+footer{
+    background: rgb(241, 221, 217);
+    margin-top: 50px;
+}
+#footerRight{
+    float: right;
+    margin-top: 29px;
+    padding: 10px;
+    background:brown;
+}
+
+#footerLeft{
+    float: left;
+}
+#footerLeft img{
+    float: left;
+    margin-right: 10px;
+}
+#footerUpper{
+    height: 150px;
+}
+
+
+
+#footerBottom{
+    margin-top: 25px;
+    text-align: center;
+   
+}
